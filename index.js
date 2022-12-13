@@ -1,11 +1,7 @@
 
 const boton = document.getElementById("boton11");
 
-boton.addEventListener("click", () => {
-    console.log("click en boton")
-
-    alert("click en boton")
-})
+boton.addEventListener("click", () => alert("click en el botón"))
 
 $("#boton12").click(() => {
    console.log("Hola, estoy utilizando jQuery")
